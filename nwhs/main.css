@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width:100%;
+    max-width:600px;
+}
+
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.currentLink {
+    color: #FF0000;
+}
+
+.makeItRED {
+    color: #FF0000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: #F1F1F1;
+}
+
+.nav-item {
+    display: inline;
+
+    padding: 2rem 1rem;
+    justify-content: center;
+}
+
+.nav-link{
+    font-size: 2.5vh;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-item {
+    margin: 2.5rem 1.5vw;
+}
+
+.nav-logo {
+    width: 7vw;
+}
+
+.title {
+    display: none;
+}
+
+#home-welcome{
+    color: #707070;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.8vh;
+    margin-left: 5vw;
+    margin-right: 3.5vw;
+    text-align: center;
+}
+
+#welcome {
+    display: none;
+}
+
+#FAA {
+    color: #5c5c5c;
+    text-align: center;
+    font-size: 2.5vw;
+    margin-top: 10vh;
+    
+}
+
+#RSN {
+    color: #FF0000;
+    text-align: center;
+    font-size: 2.5vw;
+    margin-bottom: 2vh;
+}
+
+#home-text {
+    color: #3E3E3E;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 300;
+    margin-top: 5vh;
+    margin-inline: 8vw;
+}
+
+#address {
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+.slideshow-container {
+    margin: auto;
+    
+}
+
+.slideshow {
+    display: none;
+    
+}
+
+.slideshow-img {
+    width: 100%;
+    max-width: 768px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slideshow-img-services {
+    width: 100%;
+    max-width: 768px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#company-profile {
+    color: #FF0000;
+    font-size: 4vw;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 6vh;
+    margin-left: 2vw;
+}
+
+#profile-body {
+    color: #818181;
+    font-size: 2vw;
+    font-style: italic;   
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#list-items {
+    color: #818181;
+    font-size: 1.75vw;
+    font-style: italic;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#profile-wrap {
+    margin-left: 7vw;
+    margin-top: 3vh;
+}
+
+#services {
+    color: #FF0000;
+    font-size: 5vw;
+    font-weight: bold;
+    margin-top: 6vh;
+    text-align: center;
+}
+
+.service-list {
+    color: #707070;
+    font-style: italic;
+    font-size: 2.5vw;
+    padding-top: 2vh;
+    padding-left: 4vw;
+    padding-right: 2vw;
+}
+
+#service-body {
+    color: #707070;
+    font-size: 2vw;
+    padding-top: 20px;
+    text-align: center;
+    padding-inline: 30px;
+    padding-bottom: 3vh;
+}
+
+#service-heli {
+    color: #FF0000;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 13vh;
+    text-align: center;
+
+}
+
+#contact-title {
+    color: #FF0000;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#contact-body {
+    color: #707070;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#contact-items {
+    color: #707070;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+#contact-end {
+    color: #707070;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 5vh;
+}
+
+#address-contact {
+    margin-top: 2vh;
+    border-color: #707070;
+}
+
+#stc-title {
+    color: #FF0000;
+    font-size: 4vw;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 6vh;
+
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+#profile-wrap {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #FF0000;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+.nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+}
+
+.nav-menu.active {
+    left: 0;
+}
+
+.nav-item {
+    margin: 2.5rem 0;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-logo {
+    margin: auto;
+    width: 60px;
+}
+
+#home-welcome {
+    display: none;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+#FAA {
+    color: #5c5c5c;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    
+}
+
+#RSN {
+    color: #FF0000;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#home-text {
+    color: #3E3E3E;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-inline: 20px;
+}
+
+#welcome {
+    color: #3E3E3E;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.slideshow-container {
+    margin: auto;
+    
+}
+
+.slideshow {
+    display: none;
+    
+}
+
+.slideshow-img {
+    width: 100%;
+    max-width: 768px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slideshow-img-services {
+    width: 100%;
+    max-width: 768px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#address {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#company-profile {
+    color: #FF0000;
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+#profile-body {
+    color: #818181;
+    font-size: 150%;
+    font-style: italic;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#list-items {
+    color: #818181;
+    font-size: 150%;
+    font-style: italic;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#services {
+    color: #FF0000;
+    font-size: 300%;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.service-list {
+    color: #707070;
+    font-style: italic;
+    font-size: 2.5vh;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+#service-body {
+    color: #707070;
+    font-size: 2vh;
+    padding-top: 20px;
+    text-align: center;
+    padding-inline: 30px;
+    padding-bottom: 20px;
+}
+
+#service-heli {
+    color: #FF0000;
+    font-size: 300%;
+    font-weight: bold;
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+#contact-title {
+    color: #FF0000;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contact-body {
+    color: #707070;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact-items {
+    color: #707070;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#contact-end {
+    color: #707070;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 50px;
+}
+
+#address-contact {
+    margin-top: 20px;
+    border-color: #707070;
+    border-top: 10px;
+}
+
+
+#stc-title {
+    color: #FF0000;
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 50px;
+
+    text-align: center;
+}
+}
+
+
+
