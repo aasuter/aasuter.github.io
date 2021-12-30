@@ -1,119 +1,162 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <div class="flex-container">
-            <!--Navigation Bar-->
-            <div class="navbar">
-                <div class="title">
-                    Services
-                </div>
-                <img  class="nav-logo" src="assets\Logo.png" alt="">
-                <div id="home-welcome"> Welcome to <br> Northwest Heli Structures</div>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="home.html" class="nav-link" > Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="our-profile.html" class="nav-link" > Our Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link" style="color: #FF0000;"> Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link"> Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="STC.html" class="nav-link"> STC</a>
-                    </li>
-                </ul>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Andrew Suter">
+    <title>Northwest Heli Structures</title>
+    
 
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </div>
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/dist/css/bootstrap.bundle.min.js" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-            <!--Content-->
-            
-            <div id= 'services'> Services</div>
-            <ul>
-                <li class="service-list">-  <span class="makeItRED">Offering</span> Helicopter Maintenance, Repair & Overhaul from 
-                    mechanics with <span class="makeItRED">at least</span> 10 years of aircraft industry experience
-                </li>
-                <li class="service-list">-  <span class="makeItRED">All</span> mechanics are FAA Certified.
-                </li>
-                <li class="service-list">-  MRO specialty in rescue helicopters/air ambulances.
-                </li>
-                <li class="service-list">-  Authorized FAA Repair Station: <span class="makeItRED">#N36R982Y</span>
-                </li>
-            </ul> 
-            
-            <div id="service-heli">Helicopter Repairs, Modifications & Maintenance</div> 
-            <div id="service-body"> Northwest Heli Structures offers structural repairs 
-                and modifications of a variety of helicopters. We are familiar 
-                with a wide range of frames and parts, including 
-                CH-54s, S-61s, 205s, and 212s, among many others.</div>
-                <div class="slideshow-container">
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-1.jpg" alt="">
-                    </div>
-        
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-2.jpg" alt="">
-                    </div>
-        
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-3.jpg" alt="">
-                    </div>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  
+    
+    <!-- Custom styles for this template -->
+    <link href="main.css" rel="stylesheet">
 
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-4.jpg" alt="">
-                    </div>
-        
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-5.jpg" alt="">
-                    </div>
-        
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-6.jpg" alt="">
-                    </div>
-
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-7.jpg" alt="">
-                    </div>
-        
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-8.jpg" alt="">
-                    </div>
-        
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-9.jpg" alt="">
-                    </div>
-
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-10.jpg" alt="">
-                    </div>
-        
-                    <div class="slideshow">
-                        <img class='slideshow-img-services' src="assets\Services-11.jpg" alt="">
-                    </div>
-                    
-                </div>
-            
-            
-        </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
 
 
-        <script src="main.js" async defer></script>
-    </body>
+<main>
+
+
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none nav-header">
+        <img class="bi me-2" width="90" height="60" src='assets/logo.png'></img>
+        <span class="fs-3 nav-text">Northwest Heli Structures</span>
+      </a>
+
+      <ul class="nav nav-pills nav-fill red">
+        <li class="nav-item"><a href="index.html" class="nav-link " >Home</a></li>
+        <li class="nav-item"><a href="our-profile.html" class="nav-link " >Our Profile</a></li>
+        <li class="nav-item"><a href="services.html" class="nav-link active" aria-current="page">Services</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+        <li class="nav-item"><a href="STC.html" class="nav-link">STC</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <div class="container text-secondary">
+    <div class="center-text">
+      <span class="red large-header">Services</span>
+      <br>
+
+      Offering Helicopter Maintenance, <br>
+      Repair & Overhaul from mechanics with <br> 
+      at least 10 years of aircraft industry experience.
+      <br>
+      <br>
+      All mechanics are FAA Certified.
+      <br>
+      <br>
+      MRO specialty in rescue helicopters/air ambulances.
+      <br>
+      <br>
+      Authorized FAA Repair Station: #N36R982Y
+    </div>
+  </div>
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img src="assets\Services-1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-7.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-8.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-9.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-10.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="assets\Services-11.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="faa-text text-secondary">
+    FAA Certified Repair Station
+    <br>
+    <span class="red">N36R982Y</span> 
+    <br>
+    3911 Spur Ridge Lane <br>
+    Bellingham, WA 98226
+  </div>
+    
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">&copy; 2021 Northwest Heli Structures, Inc</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <img class="bi me-2" width="48" height="32" src='assets/logo.png'></img>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="our-profile.html" class="nav-link px-2 text-muted">Our Profile</a></li>
+        <li class="nav-item"><a href="services.html" class="nav-link px-2 text-muted">Services</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+        <li class="nav-item"><a href="STC.html" class="nav-link px-2 text-muted">STC</a></li>
+      </ul>
+    </footer>
+  </div>
+  
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+      
+  </body>
 </html>
